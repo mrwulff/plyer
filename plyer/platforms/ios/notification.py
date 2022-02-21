@@ -25,7 +25,7 @@ UNTimeIntervalNotificationTrigger = autoclass('UNTimeIntervalNotificationTrigger
 UNUserNotificationCenter = autoclass('UNUserNotificationCenter')
 NSString = autoclass('NSString')
 
-load_dylib('./UniBlocks.dylib')
+load_dylib('UniBlocks.dylib')
 
 
 class IosNotification(Notification):
